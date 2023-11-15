@@ -1,0 +1,61 @@
+Question 1) Explain what JavaScript is and its role in web development.
+Ans) JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia,
+ animate images, and pretty much everything else.
+JavaScript (JS) is a cross-platform, object-oriented programming language used by developers to make web pages interactive.
+ It allows developers to create dynamically updating content, use animations, pop-up menus, clickable buttons, control 
+multimedia, etc.
+
+Q2) Explain the key differences between JavaScript and HTML. Provide examples of situations where
+you would use each.
+Ans)(i)Purpose: HTML is used for creating the structure and content of a web page, while JavaScript is used for adding interactivity and dynamic behavior to a web page.
+(ii)Syntax: HTML uses markup tags to define elements, while JavaScript uses scripting language syntax.
+(iii)Rendering: HTML is rendered by the browser, while JavaScript is executed by the browser.
+(iv)Dynamic behavior: HTML has no built-in capabilities for creating dynamic behavior, while JavaScript can dynamically change content, styles, and respond to user interactions.
+(v)Separation from content: JavaScript can be separated from the HTML and placed in a separate file, while HTML is tightly integrated with the content of a web page.
+(vi)Interoperability: HTML is supported by all browsers, while JavaScript implementation may vary among browsers.
+(vii)Server interaction: HTML is static and has no capability for interacting with a server, while JavaScript can communicate with a server and exchange data dynamically.
+(viii)Learning curve: HTML has a relatively low learning curve, while JavaScript has a steeper learning curve due to its scripting language syntax and dynamic capabilities.
+
+Q3)List and describe the five primitive data types in JavaScript.
+Ans)  Primitive data types: The predefined data types provided by JavaScript language are known as primitive data types. 
+Primitive data types are also known as in-built data types.
+1. Number: Number data type in javascript can be used to hold decimal values as well as values without decimals.
+2. String: The string data type in javascript represents a sequence of characters that are surrounded by 
+single or double quotes.
+3. Undefined: The meaning of undefined is ‘value is not assigned’.
+4. Boolean: The boolean data type can accept only two values i.e. true and false.
+5. Null: This data type can hold only one possible value that is null.
+6. BigInt: This data type can represent numbers greater than 253-1 which helps to perform operations
+ on large numbers. The number is specified by writing ‘n’ at the end of the value.
+7. Symbol: This data type is used to create objects which will always be unique. 
+these objects can be created using Symbol constructor.
+
+Q4)What is the purpose of declaring variables in JavaScript, and how do you declare them using the
+'let' keyword?
+Ans) JavaScript includes variables that are used to hold the data value and it can also be changed anytime.
+exp) let x = 5;
+let y = 6;
+let z = x + y;
+conlog.log(z);
+
+Q5)Explain the importance of comments in JavaScript and provide examples of single-line and
+multi-line comments.
+Ans)To prevent the execution of multiple lines, a comment can be used.
+a)single-line comments--
+// this will output ‘hello world’ to the browser's console.
+console.log(‘hello world’);
+
+result = 3 + 7 // comments can also follow a statement like this
+
+b)multi-line comments ---
+/* Add two numbers and
+   Store the output in a variable called result.
+   Also, print the output to the browser’s console
+*/
+result = 6 * 5
+console.log(‘Multiplication result is: ‘, result);
+
+Q6)Explain the importance of choosing meaningful and descriptive variable names in JavaScript.
+Provide an example where using a clear identifier improves code readability.
+Ans) Readability and Understandability: Clear and meaningful variable names make your code more readable and understandable. When someone, including yourself, reads the code later on,
+ descriptive variable names make it easier to comprehend the purpose and intent of the variable.
