@@ -1,0 +1,62 @@
+Ques1) Explain the role of operators in JavaScript.Why are they essential in programming?
+
+Ans)Operators are used to performing specific mathematical and logical computations on operands. Depending on its type, an operator manipulates
+an arithmetic or logical value, or operand, in a specific way to generate a specific result. From handling simple arithmetic functions to facilitating the 
+execution of complex algorithms, like security encryption.
+
+Ques2)Describe the categorization of operators in JavaScript based on their functionality. Provide examples for each category.
+Ans) There are different types of JavaScript operators:
+ i) Arithmetic Operators
+ ii) Assignment Operators
+ iii) Comparison Operators
+ iv) Logical Operators
+ v) Bitwise Operators
+ vi) Ternary Operators
+
+(i) Arithmetic Operators ---> Arithmetic Operators are used to perform arithmetic on numbers:
+exp) let a = 3;
+let x = (100 + 50) * a;
+
+(ii) Assignment Operator --> The Assignment Operator (=) assigns a value to a variable.
+exp) // Assign the value 5 to x
+    let x = 5;
+
+(iii) Comparison Operators --> Comparison operators are used in logical statements to analyze equality or difference between variables or values.
+exp)let x = 5;
+document.getElementById("demo").innerHTML = (x == 8)
+(iv) Logical Operators --> A logical operator determines whether a Boolean expression is true or false based on the operator used.
+exp) x = 6 and y = 3
+(x < 10 && y > 1)
+
+(v)Bitwise Operators --> The bit operators operate on 32-bit numbers. In operation, any numeric operand is converted into a 32-bit 
+number. JavaScript converts the result back to a number.
+exp)
+
+(vi)Ternary Operators --> JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
+exp)let voteable = (age < 18) ? "Too young":"Old enough";
+
+Q3) Differentiate between unary, binary, and ternary operators in JavaScript. Give examples of each.
+Ans)Unary Operator-->These operators require one operand for operation. Providing two or more can result in a syntax error. 
+exp) typeof "hello"
+// string
+ 
+Binary Operator --> These operators require two operands for operation. If one or more than two operands are provided, such operators result in a syntax error.
+exp)10 + 20
+// 30
+
+10 < 40
+// true
+
+Ternary Operator --> These operators require three operands. In JavaScript, there is one operator that falls under this category – the conditional operator.
+exp) const score = 80
+const scoreRating = score > 50 ? "Good" : "Poor"
+
+// "Good"
+
+Ques 4) Discuss the precedence and associativity of operators in JavaScript. Why is understanding these concepts
+important?
+Ans)Operator precedence determines how operators are parsed concerning each other. Operators with higher precedence become
+ the operands of operators with lower precedence.
+
+
+
